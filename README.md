@@ -1,9 +1,5 @@
 # Политика конфиденциальности — расширение Zeno
 
-**Дата последнего обновления:** 18 апреля 2026 г.
-
-Этот документ описывает обработку данных расширением **Zeno** для браузера Google Chrome (Manifest V3). Замените в квадратных скобках плейсхолдеры на ваши данные перед публикацией ссылки в Chrome Web Store.
-
 **Оператор / разработчик:** nikel303  
 **Контакт по вопросам конфиденциальности:** nikel303@gmail.com
 
@@ -73,7 +69,7 @@
 **Last updated:** April 18, 2026.
 
 **Developer:** nikel303
-**Privacy contact:** nikel303@gmailcom
+**Privacy contact:** nikel303@gmail.com
 
 **Zeno** is a Chrome extension (Manifest V3) that replaces the new tab page with a speed-dial backed by your **Chrome bookmarks** in a folder you choose.
 
