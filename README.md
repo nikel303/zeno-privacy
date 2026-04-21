@@ -1,7 +1,15 @@
 # Политика конфиденциальности — расширение Zeno
 
-**Оператор / разработчик:** nikel303  
+**Дата последнего обновления:** 21 апреля 2026 г.
+
+**Оператор / разработчик:** nikel303
 **Контакт по вопросам конфиденциальности:** nikel303@gmail.com
+
+---
+
+## Единственное назначение
+
+**Zeno** служит одной цели: заменить стандартную страницу новой вкладки на минималистичный экран (дата, сетка ярлыков из **одной** папки закладок Chrome, выбранной пользователем). Ярлыки — обычные закладки браузера; расширение **не** предназначено для блокировки рекламы, слежения за сайтами или изменения содержимого веб-страниц, кроме подмены новой вкладки.
 
 ---
 
@@ -34,10 +42,6 @@
 
 - При отображении ярлыков расширение может запрашивать иконки по URL сайтов и через сервис Google favicon. Удалённые серверы видят такой запрос так же, как при обычном обращении к ресурсу (типично — только запрос файла изображения, без передачи списка ваших закладок от имени Zeno).
 
-### Поисковая строка на новой вкладке
-
-- Текст запроса обрабатывается в браузере: при необходимости открывается поиск Google или введённый вами URL. Zeno **не ведёт** журнал поисковых запросов на стороне разработчика.
-
 ---
 
 ## Контекстное меню (`contextMenus`)
@@ -66,10 +70,16 @@
 
 # Privacy Policy — Zeno browser extension (English summary)
 
-**Last updated:** April 18, 2026.
+**Last updated:** April 21, 2026.
 
 **Developer:** nikel303
 **Privacy contact:** nikel303@gmail.com
+
+## Single purpose
+
+**Zeno** has one purpose: replace Chrome’s default new tab page with a minimal dashboard (the date, a grid of shortcuts from **one** bookmark folder you select). Shortcuts are normal browser bookmarks; the extension is **not** for ad blocking, cross-site tracking, or modifying web page content except the new tab override.
+
+---
 
 **Zeno** is a Chrome extension (Manifest V3) that replaces the new tab page with a speed-dial backed by your **Chrome bookmarks** in a folder you choose.
 
@@ -77,6 +87,4 @@
 - Bookmarks are read and updated through Chrome’s **bookmarks API**; sync behavior follows your **Chrome / Google account** settings.
 - UI preferences and related metadata are stored **locally** in `chrome.storage.local` (and local extension storage). Favicons may be cached locally.
 - To show site icons, the extension may **fetch images** from the **same sites** as your shortcuts (e.g. `favicon.ico`) and from **Google’s public favicon service** (`https://www.google.com/s2/favicons`). Those requests go **from your browser** to those hosts, not through us.
-- The search bar opens Google or a URL you enter; we **do not** log queries on our side.
-
 For questions: **nikel303@gmail.com**.
